@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #ddd;
+    padding: 5px;
+    border-bottom: 5px solid #f0f0f0;
+}
+
+.navbar img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin-left: 10px;
+}
+
+.container {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    margin-right: 200px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navbar-nav .nav-link:active {
+    color: #000;
+    background-color: #ddd;
+}
+
+/* Adicione isso ao seu arquivo de estilo CSS */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Cor de fundo do seu rodapé */
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.table {
+    width: 100%; /* Defina a largura da tabela como 100% da largura do contêiner pai */
+}
+
+.container {
+    max-width: 1800px; /* Defina a largura máxima do contêiner pai (ajuste conforme necessário) */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
